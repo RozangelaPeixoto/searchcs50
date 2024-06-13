@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/images.css">
+        <script defer src="./scripts/functions.js"></script>
+        <script defer src="./scripts/main_images.js"></script>
+    </head>
+
+    <body>
+        <nav class="menu__container">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="./index.html">Google</a></li>
+                <li class="menu__item"><a href="./advanced_search.html">Advanced Search</a></li>
+            </ul>
+        </nav>  
+        <main class="search__container">
+            <div class="search__image">
+                <img src="./assets/google.png" alt="Logo Google">
+                <span class="search__text">images</span>
+            </div>
+            <form class="search__form" action="https://google.com/search">
+                <div class="search__input">
+                    <span class="search__lupa"><img src="./assets/lupa.svg" alt="Lupa de pesquisa"></span>
+                    <textarea name="q" id="search" rows="1"></textarea>
+                    <input type="text" name="udm" value="2" style="display: none;">
+                    <div class="search__options">
+                        <span class="search__clear" data-text="Clear"><img src="./assets/clean.svg" alt="Clear"></span>
+                        <span class="search__voz" data-text="Search by voice"><img src="./assets/voz.svg" alt="Icone de voz"></span>
+                        <span class="search__lens" data-text="Search by image"><img src="./assets/lens.svg" alt="Icone do lens"></span>
+                        <span class="search__options__lupa"><img src="./assets/lupa2.svg" alt="Lupa de pesquisa"></span>
+                    </div>
+                    
+                </div>
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="footer__country">Brazil</div>
+            <div class="footer__links">
+                <ul class="links__container">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search works</a></li>
+                </ul>
+                <ul class="links__container">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>   
+            </div>
+        </footer>
+    </body>
+</html>

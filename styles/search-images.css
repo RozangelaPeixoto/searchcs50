@@ -1,0 +1,22 @@
+.search__image{
+    display: inline-block;
+    position: relative;
+}
+.search__text{
+    position: absolute;
+    bottom: 3px;
+    right: 5.5px;
+    color: #4285f4;
+}
+.search__options__lupa:hover{
+    cursor: pointer;
+}
+span.search__lupa{
+    padding: 12px 8px 0px 6px;
+}
+span.search__lens{
+    padding-right: 12px;
+}
+span.search__voz{
+    padding-right: 8px;
+}

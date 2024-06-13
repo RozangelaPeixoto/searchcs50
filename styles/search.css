@@ -1,0 +1,114 @@
+.search__container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: 12px;
+  }
+  
+  .search__form {
+    max-width: 584px;
+    margin: 0 auto;
+    padding: 23px;
+  }
+  
+  .search__buttons {
+    margin-top: 1.125rem;
+  }
+  
+  .search__input {
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    display: flex;
+    padding: 0 8px;
+  }
+  
+  .search__input:hover,
+  .search__input:focus-within {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+  }
+  
+  .search__options {
+    display: flex;
+  }
+  
+  .search__options span {
+    height: 24px;
+    width: 24px;
+    padding: 10px 8px 0;
+  }
+  
+  span.search__lupa {
+    height: 20px;
+    width: 20px;
+    padding: 13px 8px 0px 6px;
+    display: inline-flex;
+  }
+  
+  .search__voz:hover,
+  .search__lens:hover,
+  .search__key:hover,
+  .search__clear:hover {
+    cursor: pointer;
+  }
+  
+  span.search__clear {
+    display: none;
+    margin-right: 10px;
+  }
+  
+  .search__clear img {
+    border-right: 1px solid #c1c1c1;
+    padding-right: 10px;
+  }
+  
+  .search__options img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  span.search__key {
+    height: 17px;
+    width: 19px;
+    padding-top: 18px;
+  }
+  
+  .search__key img {
+    height: auto;
+  }
+  
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    resize: none;
+    height: 46px;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: "Roboto", sans-serif;
+    overflow-y: hidden;
+  }
+  
+  input[type='submit'] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  input[type='submit']:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    border: 1px solid #dadce0;
+  }
+  

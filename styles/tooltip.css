@@ -1,0 +1,55 @@
+.search__voz,
+.search__lens,
+.search__key,
+.search__clear {
+  position: relative;
+}
+
+.search__voz::before,
+.search__lens::before,
+.search__key::before,
+.search__clear::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  margin-top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: .6875rem;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 8px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: none;
+}
+
+.search__voz::after,
+.search__lens::after,
+.search__key::after,
+.search__clear::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: 27.3px;
+  left: calc(50% - 6px);
+  transform: translateX(-50%);
+  rotate: 90deg;
+  border: 6px solid;
+  border-color: transparent black transparent transparent;
+  display: none;
+}
+
+.search__voz:hover:before,
+.search__voz:hover:after,
+.search__lens:hover:before,
+.search__lens:hover:after,
+.search__key:hover:before,
+.search__key:hover:after,
+.search__clear:hover:before,
+.search__clear:hover:after {
+  display: block;
+}

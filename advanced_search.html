@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/advanced.css">
+        <script defer src="./scripts/functions.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="menu__container">
+                <a href="./index.html"><img src="./assets/googlelogo.svg" alt="Google logo"></a>
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="./index.html">Google</a></li>
+                    <li class="menu__item"><a href="./images.html">Images</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Advanced Search</h1> 
+            <hr>
+            <div class="search__container">
+                <form class="search__form" action="https://google.com/search">
+                    <div class="search__row">
+                        <span class="search__subtitle">Find pages with...</span>
+                        <div class="search__input"></div>
+                        <span class="search__description">To do this in the search box.</span>
+                    </div>
+                    <div class="search__row">
+                        <label class="search__text">all these words:</label>
+                        <input type="text" class="search__input" name="as_q">
+                        <div class="search__example">Type the important words:<span> tri-colour rat terrier</span></div>
+                    </div>
+                    <div class="search__row">
+                        <label class="search__text">this exact word or phrase:</label>
+                        <input type="text" class="search__input" name="as_epq">
+                        <div class="search__example">Put exact words in quotes: <span>"rat terrier"</span></div>
+                    </div>
+                    <div class="search__row">
+                        <label class="search__text">any of these words:</label>
+                        <input type="text" class="search__input" name="as_oq">
+                        <div class="search__example">Type OR between all the words you want: <span>miniature OR standard</span></div>
+                    </div>
+                    <div class="search__row">
+                        <label class="search__text">none of these words:</label>
+                        <input type="text" class="search__input" name="as_eq">
+                        <div class="search__example">Put a minus sign just before words that you don't want:
+<span>-rodent, -"Jack Russell"</span></div>
+                    </div>
+                    <span class="search__subtitle"></span>
+                    <div class="search__input"><button type="submit" class="search__btn">Advanced Search</button></div>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__country">Brazil</div>
+            <div class="footer__links">
+                <ul class="links__container">
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>   
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+.menu__container {
+    margin-left: auto;
+    padding: 16px 24px;
+}
+  
+.menu__list {
+    display: flex;
+    gap: 1rem;
+}
+  
+.menu__list a,
+.links__container a {
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+    font-size: .875rem;
+}
+  
+.menu__list a:hover,
+.links__container a:hover {
+    text-decoration: underline;
+}
