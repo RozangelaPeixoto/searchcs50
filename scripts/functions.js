@@ -15,6 +15,13 @@ function clearInput() {
     tx.style.height = "46px";
 }
 
+function pressEnter(event){
+    if (event.key === "Enter") {
+        event.preventDefault();
+        fm.submit();
+    }
+}
+
 function feelingLucky() {
     var query = document.querySelector('#search').value;
     window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent(query) + '&btnI';
