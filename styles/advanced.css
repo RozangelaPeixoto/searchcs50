@@ -41,7 +41,7 @@ hr {
 }
 
 .menu__container a{
-    align-self: flex-end;
+    margin-top: 22px;
 }
 .menu__container img {
     width: 74px;
@@ -208,5 +208,13 @@ hr {
     .search__example,
     .search__description {
         display: none;
+    }
+}
+@media screen and (max-width:616px) {
+    .menu__container a{
+        margin-top: 14px;
+    }
+    main h1 {
+        margin: 34px 39px 27px;
     }
 }
