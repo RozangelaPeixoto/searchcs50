@@ -27,6 +27,6 @@
   @media screen and (max-width: 1200px) {
     .footer__links {
       justify-content: space-evenly;
-      gap: 24px;
+      gap: 30px;
     }
   }
