@@ -53,3 +53,8 @@
 .search__clear:hover:after {
   display: block;
 }
+@media screen and (max-width: 635px){
+  .search__lens::before{
+    left: -30%;
+  }
+}
